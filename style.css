@@ -1,0 +1,35 @@
+@font-face{
+	font-family: 'WebFont';
+	src: url('font/introscriptr-h2base-webfont.eot');
+	src: url('font/introscriptr-h2base-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('font/introscriptr-h2base-webfont.woff') format('woff'),
+	     url('font/introscriptr-h2base-webfont.ttf') format('truetype'),
+	     url('font/introscriptr-h2base-webfont.svg#webfont') format('svg');
+}
+
+body {
+	color: #1B7AB8;
+}
+
+.background {
+	position: relative;
+	background-size:cover;
+	-webkit-background-size:cover;
+	height: 100vh;
+	width: 100%;
+}
+
+.post-content {
+	position: absolute;
+	width: 40%;
+}
+
+h2 {
+	font-family: "WebFont";
+	font-size: 60pt;
+	text-shadow: 0px 1px 1px rgba(2, 128, 209, 1);
+}
+
+.post-content p {
+	color: #A4A4A4;
+}
