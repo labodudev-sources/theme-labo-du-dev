@@ -20,5 +20,10 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="site">
-	<div id="content" class="site-content">
+
+	<div id="page" class="site">
+		<div id="content" class="site-content">
+			<header>
+				<h1><?php bloginfo( 'name' ); ?></h1>
+				<h2><?php bloginfo( 'description' ); ?></h2>
+			</header>
