@@ -24,7 +24,14 @@
 	<div id="page" class="site">
 		<div id="content" class="site-content">
 			<header>
+<<<<<<< HEAD
 				<span></span>
 				<h1><?php bloginfo( 'name' ); ?></h1>
 				<h2><?php bloginfo( 'description' ); ?></h2>
+=======
+				<h1><?php bloginfo( 'name' ); ?></h1>
+				<h2><?php bloginfo( 'description' ); ?></h2>
+
+				<?php wp_nav_menu(); ?>
+>>>>>>> origin/master
 			</header>
