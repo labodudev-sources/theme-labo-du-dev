@@ -1,6 +1,17 @@
 header {
-	height: 100px;
+	height: 250px;
 	background-color: #3498db;
+	position: relative;
+	span {
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		background: #fff;
+		opacity: 0.5;
+		animation-name: test;
+		animation-duration: 2s;
+		animation-timing-function: linear;
+	}
 }
 
 .content-poc {
@@ -11,4 +22,19 @@ header {
 		div {
 		}
 	}
+}
+
+
+@keyframes test {
+	0% { left: 100px; }
+	10% { left: 120px; }
+	20% { left: 140px; }
+	30% { left: 160px; }
+	40% { left: 180px; }
+	50% { left: 200px; }
+	60% { left: 220px; }
+	70% { left: 240px; }
+	80% { left: 260px; }
+	90% { left: 280px; }
+	100% { left: 300px; }
 }
