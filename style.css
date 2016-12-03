@@ -1,1 +1,24 @@
 header{height:250px;background-color:#3498db;position:relative}header span{position:absolute;width:20px;height:20px;background:#fff;opacity:.5;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";-webkit-animation-name:a;animation-name:a;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-timing-function:linear;animation-timing-function:linear}.content-poc{background-color:#f1c40f}.content-poc .list-poc{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around}@-webkit-keyframes a{0%{left:100px}10%{left:120px}20%{left:140px}30%{left:160px}40%{left:180px}50%{left:200px}60%{left:220px}70%{left:240px}80%{left:260px}90%{left:280px}to{left:300px}}@keyframes a{0%{left:100px}10%{left:120px}20%{left:140px}30%{left:160px}40%{left:180px}50%{left:200px}60%{left:220px}70%{left:240px}80%{left:260px}90%{left:280px}to{left:300px}}
+
+
+
+svg {
+  margin: 50px auto;
+  width: 45%;
+}
+
+.clip {
+  animation: slide 8s infinite;
+}
+
+@keyframes slide {
+  from {
+    transform: translateY(-135px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  to {
+    transform: translateY(-135px);
+  }
+}
